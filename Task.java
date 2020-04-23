@@ -12,6 +12,39 @@ public class Task
         this.startTime = startTime;
         this.duration = duration;
     }
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+    public void setType(String type)
+    {
+        this.type = type;
+    }
+    public void setStartTime(int time)
+    {
+        startTime = time;
+    }
+    public void setDuration(int duration)
+    {
+        this.duration = duration;
+    }
+    public String getName()
+    {
+        return name;
+    }
+    public String getType()
+    {
+        return type;
+    }
+    public int getStartTime()
+    {
+        return startTime;
+    }
+    public int getDuration()
+    {
+        return duration;
+    }
+
 
 
 }

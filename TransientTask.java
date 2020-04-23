@@ -7,4 +7,12 @@ public class TransientTask extends Task
         super(name, type, startTime, duration);
         this.date = date;
     }
+    public void setDate(int date)
+    {
+        this.date = date;
+    }
+    public int getDate()
+    {
+        return date;
+    }
 }
